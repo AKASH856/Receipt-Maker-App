@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "150230441450",
+    "firebase_url": "https://finalreceiptmaker-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "finalreceiptmaker",
+    "storage_bucket": "finalreceiptmaker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:150230441450:android:821fa2f0a609f99769a693",
+        "android_client_info": {
+          "package_name": "com.alternate.sem5project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "150230441450-aeboep22pobu6k05e6ntqprjou4bcato.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqaQNU-9vcl254BBdFg239_kxA6Rmr-zM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "150230441450-aeboep22pobu6k05e6ntqprjou4bcato.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

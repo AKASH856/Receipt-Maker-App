@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#D3D0E3">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_height="40dp"
+        android:layout_width="150dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="120dp"
+        android:text="That's great !"
+        android:textColor="#333140"
+        android:textSize="25dp"
+        tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_height="40dp"
+        android:layout_width="280dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="70dp"
+        android:text="Tell us what we got right"
+        android:textColor="#333140"
+        android:textSize="23dp"
+        tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_height="40dp"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="125dp"
+        android:text="Change your answer"
+        android:textColor="#504D5D"
+        android:textSize="15dp"
+        tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+
+    <View
+        android:layout_marginTop="270dp"
+        android:layout_height="1dp"
+        android:layout_width="270dp"
+        android:layout_marginLeft="60dp"
+        android:background="#504D5D"
+        tools:ignore="RtlHardcoded" />
+
+    <CheckBox
+        android:layout_width="250dp"
+         android:layout_height="wrap_content"
+        android:text="Difficult to use"
+        android:textSize="20dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="275dp"
+        tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+
+    <View
+        android:layout_marginTop="320dp"
+        android:layout_height="1dp"
+        android:layout_width="270dp"
+        android:layout_marginLeft="60dp"
+        android:background="#504D5D"
+        tools:ignore="RtlHardcoded" />
+
+    <CheckBox
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Environment"
+        android:textSize="20dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="325dp"
+        tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+
+    <View
+        android:layout_marginTop="370dp"
+        android:layout_height="1dp"
+        android:layout_width="270dp"
+        android:layout_marginLeft="60dp"
+        android:background="#504D5D"
+        tools:ignore="RtlHardcoded" />
+
+
+    <CheckBox
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Qualtiy"
+        android:textSize="20dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="375dp"
+        tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+
+
+    <View
+        android:layout_marginTop="420dp"
+        android:layout_height="1dp"
+        android:layout_width="270dp"
+        android:layout_marginLeft="60dp"
+        android:background="#504D5D"
+        tools:ignore="RtlHardcoded" />
+
+
+    <CheckBox
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Other"
+        android:textSize="20dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="425dp"
+        tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+
+
+    <EditText
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:hint="Let us know more"
+        android:textColorHint="@color/black"
+        android:layout_marginTop="470dp"
+        android:layout_marginLeft="60dp"
+        tools:ignore="Autofill,HardcodedText,RtlHardcoded,TextFields" />
+    
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="630dp"
+        android:layout_marginLeft="220dp"
+        android:text = "Submit"
+        android:background="@drawable/custom_button"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+
+</RelativeLayout>
